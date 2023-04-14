@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+    color: white;
+}
+
+nav ul li a{
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.home-text{
+    
+    margin-left: 50px;
+    margin-top: 170px;
+}
+
+.home-text h1{
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    line-height: 90px;
+    letter-spacing: 2px;
+}
+
+.home-text p{
+    color: white;
+    margin: 15px 0px;
+}
+
+.btn1{
+    color: blue;
+    background-color: white;
+    border-radius: 15px;
+    border-style: none;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.section-text h2{
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    word-spacing: 3px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 0px;
+}
+
+.section-img {
+    padding: 0px 70px;
+    
+}
+
+
+.section-text h4{
+    margin-top: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.section-text p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.package-text{
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-left: 500px;
+}
+
+.package-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.package-img img{
+    width: 360px;
+    height: 450px;
+    padding: 0px 25px;
+}
+
+.package-details{
+    margin-left: 25px;
+}
+
+.package-details h4{
+    font-size: 20px;
+}
+
+.package-details p{
+    margin-top: 10px;
+}
+
+.package-img{
+    position: relative;
+}
+
+.package-price{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.destination{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.destination-text{
+    margin-left: 500px;
+    font-size: 30px;
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+.destination-img img{
+    width: 360px;
+    height: 455px;
+    padding: 0px 30px;
+}
+
+.destination-details{
+    margin-left: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+.destination-details p{
+    font-weight: normal;
+}
+
+.img-container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.destination-img{
+    position: relative;
+}
+
+.destination-details{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.newsletter{
+    margin-top: 600px;
+    margin-left: 40px;
+}
+
+.newsletter h1{
+    font-size: 55px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.newsletter p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.mail{
+    position: relative;
+}
+.mail input{
+    width: 350px;
+    height: 45px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px  solid white;
+    box-shadow: 4px 4px 8px rgb(139, 138, 236);
+    
+    
+    
+}
+
+.mail input:first-child{
+    padding-left: 20px;
+}
+
+.btn2{
+    border: 1px solid white;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+    width: 90px;
+    height: 38px;
+    position: absolute;
+    left: 275px;
+    bottom: 35px;
+}
+
+.footer{
+    background: rgb(43, 43, 101);
+    color: white;
+    padding: 20px 20px;
+    height: 55vh;
+}
+.row-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.link1{
+    margin-right: 70px;
+}
+
+.link1 h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.link1 p{
+    padding: 10px 0px;
+}
+
+.link3{
+    margin-left: 70px;
+}
+.link3 h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.link3 p{
+    padding: 10px 0px;
+}
+
+.link2 p{
+    padding: 10px 0px;
+}
+
+.link2 h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.link4{
+    margin-left: 70px;
+    margin-bottom: 205px;
+    font-size: 20px;
+}
+
+.copyright{
+    margin-left: 255px;
+}
+
+.copyright p{
+    margin-top: 25px;
+    
+}
